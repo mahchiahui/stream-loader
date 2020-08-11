@@ -1,0 +1,7 @@
+---
+# tasks file for ansible
+
+- name: Ansible create file if it doesn't exist example
+    file:
+      path: "~/devops_server.txt"
+      state: touch
